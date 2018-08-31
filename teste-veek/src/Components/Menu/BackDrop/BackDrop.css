@@ -1,0 +1,21 @@
+.backdrop{
+    position: fixed;
+    z-index: 200;
+    color:rgb(74, 0, 211);
+    left: 150px;
+    top: 90px;
+    font-size: 35px;
+
+}
+
+@media(min-width: 400px){
+    .backdrop{
+        left: 200px;
+    }
+}
+
+@media(min-width: 600px){
+    .backdrop{
+        left: 300px;
+    }
+}

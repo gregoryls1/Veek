@@ -1,0 +1,14 @@
+.botao-home{
+    width: 174px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-left: 5px;
+}
+
+@media(max-width: 768px){
+    .botao-home{
+        width: 130px;
+        height: 45px;
+    }
+}
